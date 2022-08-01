@@ -1,9 +1,9 @@
 import pandas as pd
+import cfg as config
 import glob
-  
-folder_path = 'venv/download/'
 
-file_list = glob.glob(folder_path + "*.csv")
+file_list = glob.glob(config.folder_path + "*.csv")
+
 main_dataframe = pd.DataFrame(pd.read_csv(file_list[0],sep = ';', encoding = 'utf-8',engine='c' ,usecols=['Produto']))
 
 
