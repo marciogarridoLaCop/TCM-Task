@@ -35,9 +35,3 @@ main_dataframe_ajustado.rename(columns={'cnpj_basico':'cnpj_basico',
 cnpj_basico=main_dataframe_ajustado['cnpj_completo'].copy()
 main_dataframe_ajustado.assign(cnpj_basico = cnpj_basico)
 print(main_dataframe_ajustado)
-
-#df_produtos = main_dataframe.iloc[:,10:11]
-#df_estabelecimento=main_dataframe
-#df_estabelecimento.drop_duplicates(keep='first', inplace=True)
-#df_estabelecimento.reset_index(drop=True, inplace=True)
-#print(df_estabelecimento)
