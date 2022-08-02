@@ -3,9 +3,7 @@ import cfg as config
 import glob
 
 file_list = glob.glob(config.folder_path + "*.csv")
-
 main_dataframe = pd.DataFrame(pd.read_csv(file_list[0],sep = ';', encoding = 'utf-8',engine='c' ,usecols=['Produto']))
-
 
 for i in range(1,len(file_list)):
     data = pd.read_csv(file_list[i],sep = ';',usecols=['Produto'])
@@ -16,4 +14,7 @@ for i in range(1,len(file_list)):
 df_produtos=main_dataframe
 df_produtos.drop_duplicates(keep='first', inplace=True)
 df_produtos.reset_index(drop=True, inplace=True)
+df_produtos.columns.name = 'id'
 print(df_produtos)
+df_produtos.to_csv('tmp/produto.csv', sep = ';', index = False)
+
