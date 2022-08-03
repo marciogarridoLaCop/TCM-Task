@@ -16,5 +16,6 @@ df_produtos.drop_duplicates(keep='first', inplace=True)
 df_produtos.reset_index(drop=True, inplace=True)
 df_produtos.columns.name = 'id'
 print(df_produtos)
-df_produtos.to_csv('tmp/produto.csv', sep = ';', index = False)
+
+df_produtos.to_csv('tmp/produto.csv', sep = ';', index = True )
 

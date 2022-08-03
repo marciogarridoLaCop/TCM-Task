@@ -1,5 +1,4 @@
 
-
 folder_path = 'venv/download/'
 target = "https://dados.gov.br/dataset/serie-historica-de-precos-de-combustiveis-por-revenda/"
 
