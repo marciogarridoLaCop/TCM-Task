@@ -1,14 +1,9 @@
-# Universidade Federal Fluminense - UFF
 ## Autor : Márcio Garrido
 ### marciogarrido@id.uff.br
-
-
-[![N|Solid](https://upload.wikimedia.org/wikipedia/pt/thumb/4/47/UFF_bras%C3%A3o.png/200px-UFF_bras%C3%A3o.png)](http://www.ppgeet.uff.br/site/)
-
 ## Baixando arquivos de um website utilizando Python
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-## Siste de pesquisa
+## Site de pesquisa
 
 ![Screenshot](/venv/img/url.png)
 
@@ -47,6 +42,8 @@ No meu caso, o retorno do comando pwd foi o meu perfil, que vai variar de acordo
 Para validar se o processo foi concluído com sucesso, seu terminal agora deve ter o nome venv no início do texto como abaixo:
 
         (venv) (base) [TCM-TASK]  
+
+## Iniciando o projeto
 
 Após a configurar o ambiente, é necessário instalar as depenências.
 
