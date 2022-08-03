@@ -47,3 +47,30 @@ No meu caso, o retorno do comando pwd foi o meu perfil, que vai variar de acordo
 Para validar se o processo foi concluído com sucesso, seu terminal agora deve ter o nome venv no início do texto como abaixo:
 
         (venv) (base) [TCM-TASK]  
+
+Após a configurar o ambiente, é necessário instalar as depenências.
+
+        pip install -r requirements.txt
+
+Para rodar o programa de captura dos CSV, rode o arquivo :
+
+        Tcm.py
+
+O terminal irá gerar o report do download dos arquivos para a pasta download
+
+![Screenshot](/venv/img/response.png)        
+
+Para rodar o programa de modelagem da tabela produto rode o arquivo:
+
+        ModelagemProduto.py
+
+![Screenshot](/venv/img/produto.png) 
+
+Para rodar o programa de modelagem da tabela Estabelecimento e precos rode o arquivo:
+
+        ModelagemEstabelecimento.py
+
+Ao final, serão gerados 3 arquivos na pasta temporaria tmp
+
+![Screenshot](/venv/img/estabelecimentos.png) 
+
